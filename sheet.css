@@ -1,0 +1,28 @@
+body {
+  text-align : center;
+  background-color : black;
+}
+
+button {
+  display:inline;
+  display : block;
+  font-size : inherit;
+  margin : auto;
+  padding : 0.6em;
+  color : #FCFCFC;
+  background-color : black;
+  width : 150px;
+}
+
+h1 {
+  color : gray;
+}
+
+p {
+  color : white;
+}
+
+iframe {
+  width : 1280px;
+  height : 600px;
+}

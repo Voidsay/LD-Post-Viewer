@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+      <title>Ludum Dare Post Viewer</title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <link href="sheet.css" rel="stylesheet" type="text/css"/>
+      <script src="rotfp.js" type="text/javascript" defer> </script>
+    </head>
+    <body>
+      <h1 id="title"><strong>Voidsay's awful Ludum Dare Post Viewer</strong></h1>
+      <table align="center">
+		  <tr>
+			<td id="left"><button type="button" onclick="previous();">Previous</button></td>
+            <td id="center"><input id="num" type="number" onChange="submit();" ></input></td>
+            <td id=right><button type="button" onclick="next();">Next</button></td>	
+		  </tr>
+	  </table>
+      <div id="div1">
+      </div>
+      <p id="bottom">a crappy html5 application by Voidsay</p>
+    </body>
+</html>
